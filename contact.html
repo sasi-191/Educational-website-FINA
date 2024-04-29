@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="images/logo1.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8347e772e4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+    <section id="header1">
+        <div>
+            <ul class="sidebar">
+                <li onclick=hide()><a href="#"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></a></li>
+                <li class="hidemobile"><a href="index.html">Home</a></li>
+                <li class="hidemobile"><a href="services.html">Services</a></li>
+                <li class="hidemobile"><a href="blog.html">Blog</a></li>
+                <li class="hidemobile"><a href="team.html">Team</a></li>
+                <li class="hidemobile"><a href="#">About Us</a></li>
+            </ul>
+        </div>
+
+       
+        <div class="navbar1">
+            <a href="index.html"><img src="images/logo1.png" alt=""></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+            <button href="contact.html">Contact Us</button>
+        </div>
+
+
+    </section>
+    <li class="hidemenu" onclick=show()><a href="#"><i class="fa-solid fa-xl fa-bars"
+        style="color: #ffffff;"></i></a></li>
+
+    <section id="ourhead">
+        <h1>--- CONTACT US ---</h1>
+    </section>
+
+    <section id="contact">
+        <div class="contact-form">
+            <form action="#" id="form">
+                <label for="fname">First Name</label>
+                <input  type="text" id="name1" name="firstname" placeholder="Your name..">
+                <span style="color:red" id="nameerror1"></span>
+
+
+                <label for="lname">Last Name</label>
+                <input  type="text" id="name2" name="lastname" placeholder="Your last name..">
+                <span style="color:red" id="nameerror2"></span>
+
+
+
+                <label for="number">Mobile</label>
+                <input  type="number" id="mobile" name="lastnumbername" placeholder="Your number..">
+                <span style="color:red" id="mobileerror"></span>
+
+
+
+                <label for="email">E-mail</label>
+                <input  type="text" id="email" name="email" placeholder="Your gmail ..">
+                <span style="color:red" id="emailerror"></span>
+
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">INDIA</option>
+                    <option value="canada">USA</option>
+                    <option value="usa">CANDA</option>
+                </select>
+
+                <label for="subject">Comments</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <span style="color:rgb(0, 133, 7)" id="noerror"></span>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <section id="maps">
+        <h1>GET IN TOUCH WITH US THROUGH MAPS</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5841618992317!2d78.38728457462793!3d17.431732801527186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9157a1e9eb37%3A0xc0458146f44eea9!2sDurgam%20Cheruvu%20Cable%20Bridge%2C%20Silpa%20Gram%20Craft%20Village%2C%20HITEC%20City%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1711013955254!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+   
+    <footer>
+        <div class="col1">
+            <h3>EDUCATION <img src="images/logo1.png" alt=""></h3>
+            <p>We have purposefully established a business that <br> demonstrates a deliberate equilibrium and
+                diversity.</p>
+            <p>We have purposefully established a business that </p>
+            <div class="colicons">
+                <i class="fa-brands fa-xl fa-facebook-f"></i>
+                <i class="fa-brands fa-xl fa-twitter"></i>
+                <i class="fa-brands fa-xl fa-linkedin"></i>
+            </div>
+        </div>
+        <div class="col2">
+            <h3>OUR SERVICES</h3>
+            <li><a href="">web design</a></li>
+            <li><a href="">web design</a></li>
+            <li><a href="">app design</a></li>
+            <li><a href="">Java dev</a></li>
+            <li><a href="">AI/ML</a></li>
+
+        </div>
+        <div class="col3">
+            <h3>QUICK LINKS</h3>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="team.html">Team</a></li>
+        </div>
+
+    </footer>
+    <hr>
+    <div class="copyright">
+        <p>Education Private Limited © All Rights Reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
